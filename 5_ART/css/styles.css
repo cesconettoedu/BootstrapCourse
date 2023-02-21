@@ -69,3 +69,21 @@ a, i {
   color: #C1B696;
 }
 
+
+/* MAIN IMAGE /////////////////////////////////*/
+
+.main-image {
+  height: 400px;
+  background-image: url('../img/g_1.jpg');
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.main-image-info {
+  background-color: #ffffff;
+  padding: 25px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
