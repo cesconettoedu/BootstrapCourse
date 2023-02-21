@@ -1,5 +1,10 @@
+.bi{
+  font-size: 60px;
+}
+
 .bi-bell {
   font-size: 40px;
   color: green;
   margin: 20px;
 }
+

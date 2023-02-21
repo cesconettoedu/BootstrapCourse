@@ -1,0 +1,27 @@
+
+.col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  margin: 15px;
+}
+
+.bi{
+  margin-right: 15px;
+}
+
+.bi-android2, .android {
+  color: brown;
+  font-size: 40px;
+}
+
+.bi-airplane-fill, .airplane {
+  color: darkgoldenrod;
+  font-size: 60px;
+}
+
+.bi-binoculars-fill, .binoculars {
+  color: darkorchid;
+  font-size: 80px;
+}
