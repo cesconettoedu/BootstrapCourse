@@ -39,7 +39,7 @@
       </form>
     </div>
 
-   <p>--------------------------------------------------------------------------------------</p> 
+   <p>------------------------------------------------------------------------------------------------------------------------------------------</p> 
 
     <!--Form  Desabilitado-->
     <div class="col-4 m-4">
@@ -64,7 +64,7 @@
         </fieldset>
       </form>
     </div>
-<p>--------------------------------------------------------------------------------------</p>
+<p>------------------------------------------------------------------------------------------------------------------------------------------</p>
 
       <!--class  Form Control-->
       <div class="m-4">
@@ -98,7 +98,7 @@
       </div>
 
 
-  <p>--------------------------------------------------------------------------------------</p>
+  <p>------------------------------------------------------------------------------------------------------------------------------------------</p>
 
 
     <!-- Read only -->
@@ -124,6 +124,116 @@
         <button type="submit" class="btn btn-primary">Cadastrar</button>
       </form>
     </div>
+
+  <p>------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+  <!-- Input de Arquivos -->
+
+  <div class="col-4 m-4">
+    <h2>Teste de input de arquivos</h2>
+    
+    <form>
+      <div class="mb-4">
+        <label for="foto" class="form-label">Apenas um arquivo:</label>
+        <input type="file" class="form-control" id="foto">
+      </div>
+
+      <div class="mb-4">
+        <label for="fotos" class="form-label">Multiplos arquivo:</label>
+        <input type="file" class="form-control" id="fotos" multiple>
+      </div>
+
+      <div class="mb-4">
+        <label for="foto2" class="form-label">desabilitado:</label>
+        <input type="file" class="form-control" id="fotos2" disabled>
+      </div>
+    </form>
+  
+  </div>
+
+  <p>------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+  <!-- Outros Elementos -->
+
+  <div class="col-4 m-4">
+    <h2>Outros inputs</h2>
+    <form >
+      <!-- Data list -->
+      <div class="mb-4">
+        <label for="cidades" class="form-label">Selecione uma cidade</label>
+        <input class="form-control" list="datalistoptions" id="cidades" placeholder="Busque sua cidade">
+        <datalist id="datalistoptions">
+          <option value="Sao Paulo">
+          <option value="Rio de Janeiro">
+          <option value="Vitoria">
+          <option value="London">
+          <option value="Vila Velha">
+        </datalist>
+      </div>
+      <!-- Cor -->
+      <div class="mb-4">
+        <label for="cor" class="form-label">Selecione sua cor</label>
+        <input type="color" class="form-control form-control-color" id="cor" value="#000" title="escolha cor">
+      </div>
+      <!-- Select -->
+      <div class="mb-4">
+        <label for="opcoes" class="form-label"> Selecione a sua:</label>
+        <select class="form-select" name="opcoes" id="opcoes">
+          <option selected>Selecione uma opcao</option>
+          <option value="1">Primeira</option>
+          <option value="2">Segunda</option>
+          <option value="3">Terceira</option>
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <label for="opcoes" class="form-label"> Selecione as suas:</label>
+        <select class="form-select" multiple>
+          <option>Selecione suas opcoes</option>
+          <option value="1">banana</option>
+          <option value="2">pera</option>
+          <option value="3">manga</option>
+        </select>
+      </div>
+
+      <!-- Checkbox e radio button -->
+        <div class="mb-4">
+          <h2>MArque as opcoes</h2>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="privacidade">
+            <label for="privacidade" class="form-check-label">Aceitar termo de privacidade</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="emails" checked>
+            <label for="emails" class="form-check-label">Quer recever emails?</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="desabilitado" disabled checked>
+            <label for="desabilitado" class="form-check-label">nao pode marcar</label>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <h2>Qual voce quer?</h2>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="meu_radio" id="a" value="a" checked>
+            <label for="a" class="form-check-label">Radio Checado</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="meu_radio" id="b" value="b" >
+            <label for="b" class="form-check-label">Radio para marcar</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="meu_radio" id="c" value="c" disabled>
+            <label for="c" class="form-check-label">Radio desabilitado</label>
+          </div>
+        </div>
+
+    </form>
+  </div>
+
+
+
 
 
 
