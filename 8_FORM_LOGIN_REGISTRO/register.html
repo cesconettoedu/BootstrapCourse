@@ -19,7 +19,64 @@
   <title>Register</title>
 </head>
 <body>
+  <div class="container col-11 col-md-9" id="form-container">
+    <div class="row gx-5">
+      <div class="col-md-6">
+        <h2>Start your registration</h2>
+        
+        <form>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+            <label for="name" class="form-label">Enter your name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter your last name">
+            <label for="lastname" class="form-label">Enter your last name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+            <label for="email" class="form-label">Enter your email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
+            <label for="password" class="form-label">Enter your password</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="confirmpassword" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password">
+            <label for="confirmpassword" class="form-label">Confirm your password</label>
+          </div>
 
+          <div class="mb-3">
+            <div class="form-check mb-2">
+              <input type="checkbox" class="form-check-input" value="" id="agree-form" name="agree-form">
+              <label for="agree-form" class="form-check-label">
+                Do you accept the <a href="#">terms of service</a> ?
+              </label>
+            </div>
+            <div class="form-check mb-2">
+              <input type="checkbox" class="form-check-input" checked id="newsletter" name="newsletter">
+              <label for="newsletter" class="form-check-label">
+                Would you like to receive our <a href="#">Newsletter</a> ?
+              </label>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Send">
+          </div>
+
+        </form>
+
+      </div>
+      <div class="col-md-6">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <img src="img/hello.svg" alt="register screen" class="img-fluid">
+          </div>
+          <div class="col-12" id="link-container">
+            <a href="login.html">I already have account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 </body>
