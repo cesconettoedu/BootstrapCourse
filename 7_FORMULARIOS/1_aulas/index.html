@@ -268,17 +268,79 @@
           <span class="input-group-text">,00</span>
         </div>
 
+        <!-- Label Flutuante -->
+        <h2>Faco o login para continuar</h2>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email" placeholder="Insira o seu email">
+          <label for="label">Insira seu email</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control" id="password" placeholder="Insira o seu password">
+          <label for="label">Insira seu password</label>
+        </div>
+        <input type="submit" class="btn btn-primary" value="Entrar">
+
+
     </form>
   </div>
 
+      
+  <!-- Layout com forms -->
+    <div class="container col-6 mb-4">
+      <h2>Cadastre-se preenchendo o formulario</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite o seu email">
+        </div>
+        <div class="col-md-6">
+          <label for="password" class="form-label">Password:</label>
+          <input type="text" class="form-control" id="password" placeholder="Digite o seu password">
+        </div>
+        <div class="col-md-4">
+          <label for="cep" class="form-label">Cep:</label>
+          <input type="text" class="form-control" placeholder="Digite seu cep">
+        </div>
+        <div class="col-md-10">
+          <label for="rua" class="form-label">Rua:</label>
+          <input type="text" class="form-control" id="rua" placeholder="Digite a sua rua">
+        </div>
+        <div class="col-md-2">
+          <label for="numero" class="form-label">Numero:</label>
+          <input type="text" class="form-control" id="numero" placeholder="Nº">
+        </div>
+        <div class="col-md-4">
+          <label for="cidade" class="form-label">Cidade:</label>
+          <input type="text" class="form-control" id="cidade" placeholder="Sua cidade">
+        </div>
+        <div class="col-md-4">
+          <label for="estado" class="form-label">Estado:</label>
+          <select name="estado" id="estado" class="form-select">
+            <option selected>Escolha</option>
+            <option value="1">ES</option>
+            <option value="2">RJ</option>
+            <option value="3">MG</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter">
+            <label for="newsletter" class="form-check-label">
+              Receber newsletter?
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
 
 
 
 
 
-
-
-
+      </form>
+    </div>    
     
   </body>
 </html>
