@@ -20,15 +20,139 @@
       defer
     ></script>
 
+    <script src="js/scripts.js" defer></script>
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>Components</title>
   </head>
   <body>
+
+
+<!--Scrollspy-->
+    -Scrollspy-------como se fosse o link para a secao aonde quer ir no site------------------------------------------------------
+    <nav id="scrollspy" class="navbar navbar-light bg-light px-3 mb-4">
+      <a href="#" class="navbar-brand">Minha marca</a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#secao1" class="nav-link">Secao 1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#secao2" class="nav-link">Secao 2</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#scrollspy" data-bs-offset="0" tabindex="0">
+      <h4 id="secao1">Secao 1</h4>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <h4 id="secao2">Secao 2</h4>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+      <p class="mb-4"> Conteudo</p>
+    </div>
+
+    <!--Progress-->
+    -Progress  Bar--------------------------------------------------------------------------------------------
+    <div class="container mb-4">
+      <div class="progress mb-4">
+        <div 
+          class="progress-bar" 
+          role="pregressbar" 
+          aria-valuenow="0" 
+          aria-valuemin="0" 
+          aria-valuemax="100"
+        ></div>
+      </div>
+
+      <div class="progress mb-4">
+        <div 
+          class="progress-bar" 
+          role="pregressbar"
+          style="width: 22%"
+          aria-valuenow="22" 
+          aria-valuemin="0" 
+          aria-valuemax="100"
+        ></div>     
+      </div>
+
+        <div class="progress mb-4">
+        <div 
+          class="progress-bar bg-success" 
+          role="pregressbar"
+          style="width: 55%"
+          aria-valuenow="55" 
+          aria-valuemin="0" 
+          aria-valuemax="100"
+        ></div>     
+      </div>
+    </div>
+
+
+    <!--Popover-->
+    -Popover---------------------------------------------------------------------------------------------
+<div class="container mb-4">
+  <button 
+    class="btn btn-lg btn-success" 
+    type="button" 
+    data-bs-toggle="popover" 
+    title="Este e o titulo"
+    data-bs-content="E aqui que colocamos a descricao"
+    >Clique aqui
+  </button>
+</div>
+
+
+    <!--Pagination-->
+    -Pagination---------------------------------------------------------------------------------------------
+    <div class="container mb-4">
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
+          <li class="page-item"><a href="#" class="page-link">Anterior</a></li>
+          <li class="page-item"><a href="#" class="page-link">1</a></li>
+          <li class="page-item active"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">Proxima</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <!--Off Canvas-->
+    -Off Canvas  abrir menu na lateral--------------------------------------------------------------------------------------
+
+      <div class="container mt-4 mb-4">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">Abrir carrinho</button>
+      
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Carrinho</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     <!--Navbar-->
-    -NAvbar
-    1---------------------------------------------------------------------------------------------
+    -NAvbar---------------------------------------------------------------------------------------------
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a href="#" class="navbar-brand">Meu projeto</a>
