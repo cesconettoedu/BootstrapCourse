@@ -30,40 +30,75 @@
   <body>
 
 
+<!--Tooltip-->
+-Tooltip----dica ao passar o mouse-----------------------------------------------------------------------
+<div class="container">
+  <button class="btn btn-secondary" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Aqui vai uma dica">Este butao tem uma dica</button>
+</div>
+
+
+<!--Toast-->
+   -Toast--fica flutuando na pagina --------------------------------------------------------------------------------
+   
+  <br />
+  <div style="background-color: aqua;">
+    so olhar no canto direito da tela
+
+  </div>
+   <div class="container">
+
+     <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+       <div id="liveToast" class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+         <div class="toast-header">
+           <strong class="me-auto">Sistema</strong>
+           <small>11 minutos atrás</small>
+           <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+         </div>
+         <div class="toast-body">
+           Esta é uma mensagem do sistema...
+         </div>
+       </div>
+     </div>
+   </div>
+
+
 <!--Scrollspy-->
-    -Scrollspy-------como se fosse o link para a secao aonde quer ir no site------------------------------------------------------
-    <nav id="scrollspy" class="navbar navbar-light bg-light px-3 mb-4">
-      <a href="#" class="navbar-brand">Minha marca</a>
-      <ul class="nav">
-        <li class="nav-item">
-          <a href="#secao1" class="nav-link">Secao 1</a>
-        </li>
-        <li class="nav-item">
-          <a href="#secao2" class="nav-link">Secao 2</a>
-        </li>
-      </ul>
-    </nav>
+    -Scrollspy-------como se fosse o link para a secao aonde quer ir no site--------------------
+   <div class="container">
 
-    <div data-bs-spy="scroll" data-bs-target="#scrollspy" data-bs-offset="0" tabindex="0">
-      <h4 id="secao1">Secao 1</h4>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <h4 id="secao2">Secao 2</h4>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-      <p class="mb-4"> Conteudo</p>
-    </div>
+     <nav id="scrollspy" class="navbar navbar-light bg-light px-3 mb-4">
+       <a href="#" class="navbar-brand">Minha marca</a>
+       <ul class="nav">
+         <li class="nav-item">
+           <a href="#secao1" class="nav-link">Secao 1</a>
+         </li>
+         <li class="nav-item">
+           <a href="#secao2" class="nav-link">Secao 2</a>
+         </li>
+       </ul>
+     </nav>
+ 
+     <div data-bs-spy="scroll" data-bs-target="#scrollspy" data-bs-offset="0" tabindex="0">
+       <h4 id="secao1">Secao 1</h4>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <h4 id="secao2">Secao 2</h4>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+       <p class="mb-4"> Conteudo</p>
+     </div>
+   </div>
 
-    <!--Progress-->
+  <!--Progress-->
     -Progress  Bar--------------------------------------------------------------------------------------------
     <div class="container mb-4">
       <div class="progress mb-4">

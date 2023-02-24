@@ -1,0 +1,11 @@
+body {
+  padding-top: 50px;
+}
+
+.card{
+  width: 200px;
+}
+
+#card-banner {
+  width: 100%;
+}
