@@ -25,10 +25,10 @@
 
     <title>Components</title>
   </head>
-  <body>
+  <body class="pb-5">
 
     
-    <!-- Accordion -->
+<!-- Accordion -->
     <div class="col-4 m-4">
       <h2>Accordion</h2>
       <div class="accordion" id="accordion">
@@ -110,5 +110,53 @@
 
        </div>
     </div>
+
+<!-- Alerts -->
+    -Alerts---------------------------------------------------------------------------------------------
+    <div class="col-6 m-4">
+      <div class="alert alert-primary" role="alert" >
+        This is a common message from the system
+      </div>
+      <div class="alert alert-success" role="alert">
+        Usuario cadastrado com sucesso
+      </div>
+      <div class="alert alert-danger" role="alert">
+        Nao foi possivel fazer o login
+      </div>
+      <!-- com link -->
+      <div class="alert alert-warning" role="alert">
+        Nao foi possivel fazer o login, faca uma solicitacao <a href="" class="alert-link">clicando aqui.</a>
+      </div>
+      <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Pedido realizado</h4>
+        <p>JA estamos preparando par o envio</p>
+        <hr>
+        <p class="mb-0">Caso precise de mais informacao , <a href="" class="alert-link">clique aqui</a>.</p>
+      </div>
+      <!-- com icone de fechar -->
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Ops!</strong> Aconteceu algo errado
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+
+<!-- Badge -->
+    -Bading---------------------------------------------------------------------------------------------
+    <div class="col-4 m-4">
+      <h1>Cadeira gamer X400 
+        <span class="badge bg-primary">New</span> 
+      </h1>
+      <h1>Fone de ouvido XY10 
+        <span class="badge bg-warning">10% off</span>
+      </h1>
+      <button class="btn btn-dark">
+        Message
+        <span class="badge bg-success">4</span>
+      </button>
+    </div>
+
+
+
+
   </body>
 </html>
