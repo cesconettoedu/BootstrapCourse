@@ -25,9 +25,113 @@
 
     <title>Components</title>
   </head>
-  <body class="pb-5">
+  <body>
 
-    
+
+
+<!-- Button Group-->
+-Buttons Group---------------------------------------------------------------------------------------------
+<div class="container">
+  <h2>Configure secao</h2>
+  <div class="btn-group" role="group" aria-label="Exemplo">
+    <button class="btn btn-success" type="button">Diminuir</button>
+    <button class="btn btn-success" type="button">Confirmar</button>
+    <button class="btn btn-success" type="button">Aumentar</button>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Exemplo 2">
+    <button class="btn btn-outline-secondary" type="button">1</button>
+    <button class="btn btn-outline-secondary" type="button">2</button>
+    <button class="btn btn-outline-secondary" type="button">3</button>
+  </div>
+
+  <h2>Vertical</h2>
+  <div class="btn-group-vertical" role="group" aria-label="Exemplo 3">
+    <button class="btn btn-warning" role="button">opcao 1</button>
+    <button class="btn btn-warning" role="button">opcao 2</button>
+    <button class="btn btn-warning" role="button">opcao 3</button>
+  </div>
+</div>
+
+
+<!-- Button-->
+-Buttons---------------------------------------------------------------------------------------------
+<div class="container">
+  <button class="btn btn-primary">Button</button>
+  <button class="btn btn-outline-primary">Button</button>
+  <button class="btn btn-success">Button</button>
+  <div class="mt-1">
+    <a href="#" class="btn btn-danger">Deletar</a>
+  </div>
+  <div class="col-3 mt-1">
+    <div class="d-grid">
+      <div class="btn btn-primary">Botao de bloco</div>
+    </div>
+  </div>
+  <button class="btn btn-warning" disabled>Desabilitado</button>
+</div>
+
+
+<!-- Breadcrumb    mostra o que o usuario ja percoreu na pagina-->
+-Breadcrumb---------------------------------------------------------------------------------------------
+<div class="container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Catalogo</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Pagina de Produto</li>
+    </ol>
+  </nav>
+  <h2>Pagina de produto</h2>
+  <p>DEscricao do pro</p>
+</div>
+
+<!-- Badge -->
+-Bading---------------------------------------------------------------------------------------------
+<div class="col-4 m-4">
+  <h1>Cadeira gamer X400
+    <span class="badge bg-primary">New</span>
+  </h1>
+  <h1>Fone de ouvido XY10
+    <span class="badge bg-warning">10% off</span>
+  </h1>
+  <button class="btn btn-dark">
+    Message
+    <span class="badge bg-success">4</span>
+  </button>
+</div>
+
+
+<!-- Alerts -->
+-Alerts---------------------------------------------------------------------------------------------
+<div class="col-6 m-4">
+  <div class="alert alert-primary" role="alert">
+    This is a common message from the system
+  </div>
+  <div class="alert alert-success" role="alert">
+    Usuario cadastrado com sucesso
+  </div>
+  <div class="alert alert-danger" role="alert">
+    Nao foi possivel fazer o login
+  </div>
+  <!-- com link -->
+  <div class="alert alert-warning" role="alert">
+    Nao foi possivel fazer o login, faca uma solicitacao <a href="" class="alert-link">clicando aqui.</a>
+  </div>
+  <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Pedido realizado</h4>
+    <p>JA estamos preparando par o envio</p>
+    <hr>
+    <p class="mb-0">Caso precise de mais informacao , <a href="" class="alert-link">clique aqui</a>.</p>
+  </div>
+  <!-- com icone de fechar -->
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Ops!</strong> Aconteceu algo errado
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
+
+
 <!-- Accordion -->
     <div class="col-4 m-4">
       <h2>Accordion</h2>
@@ -110,52 +214,6 @@
 
        </div>
     </div>
-
-<!-- Alerts -->
-    -Alerts---------------------------------------------------------------------------------------------
-    <div class="col-6 m-4">
-      <div class="alert alert-primary" role="alert" >
-        This is a common message from the system
-      </div>
-      <div class="alert alert-success" role="alert">
-        Usuario cadastrado com sucesso
-      </div>
-      <div class="alert alert-danger" role="alert">
-        Nao foi possivel fazer o login
-      </div>
-      <!-- com link -->
-      <div class="alert alert-warning" role="alert">
-        Nao foi possivel fazer o login, faca uma solicitacao <a href="" class="alert-link">clicando aqui.</a>
-      </div>
-      <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">Pedido realizado</h4>
-        <p>JA estamos preparando par o envio</p>
-        <hr>
-        <p class="mb-0">Caso precise de mais informacao , <a href="" class="alert-link">clique aqui</a>.</p>
-      </div>
-      <!-- com icone de fechar -->
-      <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Ops!</strong> Aconteceu algo errado
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
-    </div>
-
-<!-- Badge -->
-    -Bading---------------------------------------------------------------------------------------------
-    <div class="col-4 m-4">
-      <h1>Cadeira gamer X400 
-        <span class="badge bg-primary">New</span> 
-      </h1>
-      <h1>Fone de ouvido XY10 
-        <span class="badge bg-warning">10% off</span>
-      </h1>
-      <button class="btn btn-dark">
-        Message
-        <span class="badge bg-success">4</span>
-      </button>
-    </div>
-
-
 
 
   </body>
