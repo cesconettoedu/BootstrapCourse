@@ -1,5 +1,13 @@
-body {
-  padding-top: 50px;
+.carousel,
+.carousel-item {
+  height: 350px;
+  background-color: bisque;
+}
+
+
+
+.carousel-item img{
+  
 }
 
 .card{

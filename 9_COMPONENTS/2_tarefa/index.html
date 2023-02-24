@@ -29,7 +29,186 @@
   </head>
   <body>
 
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Ed's Beer List</a>
+        <form class="d-flex">
+          <input
+            type="search"
+            class="form-control me-2"
+            placeholder="Beer name ..."
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+<!-- Carousel -->
+    <div class="container mt-4" style="text-align: -webkit-center">
+      <div class="col-4">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
 
-    
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://media.istockphoto.com/id/534477974/photo/bottles-of-heineken-beer.jpg?s=612x612&w=0&k=20&c=_JSV6w_YjCr_wFgqhwxmC1Eyw654QDBEzrMfufszpc0="
+                class="d-block w-100"
+                alt="Descrição"
+              />
+              <div class="carousel-caption">
+                <h5>Cerveja</h5>
+                <p>Cerveja Heineken</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKPjFV1vH_f-RoLr72YahWtrTgQmZU7TaurA&usqp=CAU"
+                class="d-block w-100"
+                alt="Descrição"
+              />
+              <div class="carousel-caption">
+                <h5>Chop</h5>
+                <p>Uma caneca de chop</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://via.placeholder.com/300"
+                class="d-block w-100"
+                alt="Descrição"
+              />
+              <div class="carousel-caption">
+                <h5>Terceiro Slide</h5>
+                <p>Alguma descricao</p>
+              </div>
+            </div>
+          </div>
+          
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+<!-- Cards -->
+    <div class="container mt-4" style="text-align: -webkit-center">
+      <div class="row">
+        
+        <div class="col-lg-3 col">
+          <div class="card m-2">
+            <img src="https://via.placeholder.com/300" alt="minha imagem" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">CARD 1</h5>
+              <h6 class="card-subtitle mb-2 text-muted">um subtitulo</h6>
+              <p class="card-text">Descricao do produto</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col">
+          <div class="card m-2">
+            <img src="https://via.placeholder.com/300" alt="minha imagem" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">CARD 2</h5>
+              <h6 class="card-subtitle mb-2 text-muted">um subtitulo</h6>
+              <p class="card-text">Descricao do produto</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col">
+          <div class="card m-2">
+            <img src="https://via.placeholder.com/300" alt="minha imagem" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">CARD 3</h5>
+              <h6 class="card-subtitle mb-2 text-muted">um subtitulo</h6>
+              <p class="card-text">Descricao do produto</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col">
+          <div class="card m-2">
+            <img src="https://via.placeholder.com/300" alt="minha imagem" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">CARD 4</h5>
+              <h6 class="card-subtitle mb-2 text-muted">um subtitulo</h6>
+              <p class="card-text">Descricao do produto</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col">
+          <div class="card m-2">
+            <img src="https://via.placeholder.com/300" alt="minha imagem" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">CARD 5</h5>
+              <h6 class="card-subtitle mb-2 text-muted">um subtitulo</h6>
+              <p class="card-text">Descricao do produto</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col">
+          <div class="card m-2">
+            <img src="https://via.placeholder.com/300" alt="minha imagem" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">CARD 6</h5>
+              <h6 class="card-subtitle mb-2 text-muted">um subtitulo</h6>
+              <p class="card-text">Descricao do produto</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+          
+    </div>
+
   </body>
 </html>
