@@ -27,11 +27,75 @@
   </head>
   <body>
 
+
+<!--Navbar-->
+-NAvbar 1---------------------------------------------------------------------------------------------
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle Navigation"
+      >
+      <span class="navbar-togger-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" aria-current="page">Produtos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categoria</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a href="#" class="dropdown-item">Cat A</a></li>
+            <li><a href="#" class="dropdown-item">Cat B</a></li>
+            <li><a href="#" class="dropdown-item">Cat C</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
 <!--Modal-->
 -Modal---------------------------------------------------------------------------------------------
-<div class="container">
-  
+<div class="container mb-4">
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Abrir modal
+  </button>
+
+  <!-- pode ficar separado do butao , so linkar pela id -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Este é o título</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Aqui você pode por qualquer coisa!</p>
+          <p>Tá bom?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
+
 
 <!--Dropdown-->
 -Dropdown---------------------------------------------------------------------------------------------
