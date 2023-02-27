@@ -318,3 +318,67 @@ body {
     font-size: 6em;
   }
 }
+
+
+/* NEW PRODUCTS /////////////////////////////////*/
+#new-products {
+  margin-bottom: 5em;
+}
+
+#new-products-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+}
+
+#new-products-banner h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 2.5em;
+}
+
+#new-products .col-md-4 {
+  padding: 0;
+}
+
+#new-products .card img {
+  height: 150px;
+  width: 90px;
+  margin: 2em auto;
+}
+
+/* GALLERY /////////////////////////////////*/
+#gallery .image-container {
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  cursor: pointer;
+  transition: .5s;
+  border: 3px solid #101010;
+}
+
+#gallery .image-container:hover {
+  border-color: #C09578;
+}
+
+#insta1 {
+  background-image: url('../img/insta1.jpg');
+}
+#insta2 {
+  background-image: url('../img/insta2.jpg');
+}
+#insta3 {
+  background-image: url('../img/insta3.jpg');
+}
+#insta4 {
+  background-image: url('../img/insta4.jpg');
+}
+#insta5 {
+  background-image: url('../img/insta5.jpg');
+}
+#insta6 {
+  background-image: url('../img/insta6.jpg');
+}
