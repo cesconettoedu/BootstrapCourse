@@ -27,7 +27,7 @@
 </head>
 
 <body>
-  <!-- NAVBAR -->
+<!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg primary-bg-color py-4 px-2" id="navbar">
     <div class="container">
       <a href="#" class="navbar-brand">ExactTime</a>
@@ -36,7 +36,7 @@
         <form class="d-flex" id="search-form">
           <i class="bi bi-search primary-color"></i>
           <input type="search" class="form-control me-2" placeholder="find your watch..." aria-label="Search">
-          <button class="btn secondary-bg-color" type="submit">Pesquisar</button>
+          <button class="btn secondary-bg-color" type="submit">Search</button>
         </form>
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
@@ -50,7 +50,7 @@
             </a>
             <span class="qty-info">5</span>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="bag-item">
             <a href="#" class="nav-link">
               <i class="bi bi-bag"></i>
               <b>CAD 999.99</b>
@@ -62,7 +62,34 @@
     </div>
   </nav>
 
- 
+<!-- BOTTOM NAVBAR -->
+  <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
+        aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+     
+      <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Promotions</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ <!-- Navbar End -->
 
 </body>
 </html>
