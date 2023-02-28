@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Helpers</title>
+    <title>Utilities</title>
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -17,7 +17,55 @@
 
   </head>
   <body>
+    <div class="container">
+      
+      <!-- BACKGROUND --> 
+      <div class="col-12 mb-3 bg-primary">BACKGROUND </div>
+      <div class="col-12 mb-3 bg-danger">BACKGROUND</div>
+      <div class="col-12 mb-3 bg-danger bg-gradient ">BACKGROUND</div>
+
+      <!-- BORDAS -->
+      <div class="col-12 mb-3 border-top border-4 bg-warning border-success">BORDER</div>
+      <div class="col-12 mb-3 border border-success border-3 border-top-0 bg-info">Border</div>
+      <div class="col-12 mb-3 border border-info border-2 rounded-pill bg-warning">Border</div>
+
+      <!-- COLORS -->
+      <h1 class="text-primary">Testando</h1>
+      <h1 class="text-primary bg-info">Testando</h1>
+
+      <!-- DISPLAY -->
+      <div class="d-none">Esta oculto</div>
+      <span class="bg-primary">Mudar para bloco</span>
+      <span class="d-block bg-primary">Mudar para bloco</span>
+      <div class="d-inline bg-success">Inline</div>
+      <div class="d-inline bg-success">Inline</div>
+      <div class="d-inline bg-success">Inline</div>
+      <div class="bg-success">block</div>
+
+      <!-- FLEX -->
+      <div class="d-flex justify-content-between m-4">
+        <div class="bg-primary mb-2">1</div>
+        <div class="bg-primary mb-2">2</div>
+        <div class="bg-primary mb-2">3</div>
+      </div>
+
+      <div class="d-flex flex-column m-4">
+        <div class="bg-primary mb-2">1</div>
+        <div class="bg-primary mb-2">2</div>
+        <div class="bg-primary mb-2">3</div>
+      </div>
+
+      <!-- INTERACOES -->
+      <p class="user-select-all">Pode selecionar tudo so com um clique</p>
+      <p class="user-select-none">Nao pode selecionar</p>
+      <p>Voce nao pode clica <a href="#" class="pe-none">Meu Link</a></p>
+
+      <!-- SOMBRAS -->
+      <div class="mb-4 shadow-sm">Sombra pequena</div>
+      <div class="mb-4 shadow">Sombra media</div>
+      <div class="mb-4 shadow-lg">Sombra grande</div>
 
 
+    </div>
   </body>
 </html>
