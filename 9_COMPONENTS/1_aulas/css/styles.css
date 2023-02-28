@@ -2,10 +2,9 @@ body {
   padding-top: 50px;
 }
 
-.card {
-  width: 200px;
+@media(min-width:426px ) {
+  
+
+
 }
 
-#card-banner {
-  width: 100%;
-}

@@ -17,11 +17,107 @@
 
   </head>
   <body>
-    <div class="clearfix mt-4">
-      <div class="box float-end">
-        
-      </div>
+
+
+<!-- TEXT LIMITATION -->
+<div class="container m-4">
+  <div class="row">
+    <div class="col-2 text-truncate">
+      Este e um texto muito granbde, e precisamos resumir para caber na pagina
     </div>
+    <div class="col-4 text-truncate">
+      Este e um texto muito granbde, e precisamos resumir para caber na pagina
+    </div>
+    <div class="col-6 text-truncate">
+      Este e um texto muito granbde, e precisamos resumir para caber na pagina
+    </div>
+  </div>
+</div>
+<p>
+  ------------------------------------------------------------------------------------------------------------------------------------------
+</p>
+
+<!-- LINK ELEMENT -->
+<div class="container m-4">
+  <div class="card" style="width: 18rem">
+    <img src="https://via.placeholder.com/400" alt="image">
+    <div class="card-body">
+      <h5 class="card-title">Produto legal</h5>
+      <p class="card-text">Nao o perca o valor promocional</p>                                             
+      <a href="https://google.com" class="btn btn-primary stretched-link">Comprar</a>
+                                                        <!--stretched-link faz com que toda a area seja clicavel  -->
+    </div>
+  </div>
+</div>
+<p>
+  ------------------------------------------------------------------------------------------------------------------------------------------
+</p>
+<!-- VISUALLY HIDDEN  esconde o conteudo mas ta acessivel-->
+  <h2 class="visually-hidden">Quero ver essa imagem com mais detalhes</h2>
+  <h2 class="visually-hidden-focusable">mostra quando estiver me focus</h2>
+<p>
+  ------------------------------------------------------------------------------------------------------------------------------------------
+</p>
+<!-- POSITIONS STICKY    o box vai acompanhar ate ter conteudo, depois ele sai -->
+  <!-- <div class="sticky-top box-sticky">Stick acompanha a tela</div> -->
+
+<!-- POSITION FIXED  fica fixa na pagina -->
+  <div class="fixed-bottom box-fixed">Fixed</div>
+<p>------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<!-- RATIO mantem video na proporcao-->
+  <div class="container m-4">
+    <div class="col-md-4 mb-4">
+      <div class="ratio ratio-16x9">
+        <iframe 
+          src="https://www.youtube.com/embed/29pXsc9JFg8" 
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <!-- sem RAtio , desfoca -->
+      <div class="col-md-4 mb-4">
+        <iframe 
+          src="https://www.youtube.com/embed/29pXsc9JFg8" 
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      
+    </div>
+
+  </div>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<!-- LINKS COLORIDOS -->
+  <div class="container m-4">
+    <a href="#" class="link-primary">Link Primary</a>
+    <button class="btn btn-primary">Button Primary</button>
+    <a href="#" class="link-success">Link success</a>
+    <button class="btn btn-success">Button success</button>
+  </div>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<!--CLEARFIX  -->
+  <div class="container m-4">
+     <!-- WITH FIX give a limit to a float-->
+     <div class="clearfix mt-4">
+       <div class="box float-end"></div>
+     </div>
+     <div class="box"></div>
+ <br/>
+     <!-- WITHOUT FIX -->
+     <div class="box float-end"></div>
+     <div class="box"></div>
+
+
+  </div> 
 
 
   </body>
